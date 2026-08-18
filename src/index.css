@@ -1,0 +1,61 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import "tailwindcss";
+
+/* 폰트 pretendard로 변경 */
+body {
+    font-family: "Pretendard", sans-serif;
+}
+
+:root {
+    /* Background */
+    --background: #0F1115;
+
+    /* Surface */
+    --surface: #1A1D24;
+    --surface-hover: #232734;
+
+    /* Border */
+    --border: #2B303A;
+
+    /* Text */
+    --text: #a5a5a5;
+
+    /* Brand */
+    --primary: #5B8CFF;
+    --primary-hover: #7AA2FF;
+
+    /* Secondary */
+    --secondary: #7C5CFF;
+    --secondary-hover: #9A80FF;
+
+    /* Text */
+    --muted: #A1A1AA;
+
+    /* Status */
+    --success: #22C55E;
+    --warning: #F59E0B;
+    --danger: #EF4444;
+}
+
+@theme inline {
+    --color-background: var(--background);
+
+    --color-surface: var(--surface);
+    --color-surface-hover: var(--surface-hover);
+
+    --color-border: var(--border);
+
+    --color-text: var(--text);
+
+    --color-primary: var(--primary);
+    --color-primary-hover: var(--primary-hover);
+
+    --color-secondary: var(--secondary);
+    --color-secondary-hover: var(--secondary-hover);
+
+    --color-muted: var(--muted);
+
+    --color-danger: var(--danger);
+    --color-warning: var(--warning);
+    --color-success: var(--success);
+}
